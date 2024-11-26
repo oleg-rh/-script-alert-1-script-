@@ -1,0 +1,6 @@
+- name: Set Up a Project and Job Template
+  hosts: localhost
+
+  tasks:
+    - name: Echo
+      shell: sleep 60000
